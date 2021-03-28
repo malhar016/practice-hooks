@@ -1,16 +1,30 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  height: 360px;
+  font-size: 2rem;
+  text-shadow: 3px 3px black;
+  color: honeydew;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 70s linear;
   }
+}
+
+.circle {
+  border: solid 0.3rem blueviolet;
+  border-radius: 50%;
+  height: 360px;
+  width: 360px;
+  background-color: darkcyan;
+  margin: 2rem 2rem;
 }
 
 .App-header {
